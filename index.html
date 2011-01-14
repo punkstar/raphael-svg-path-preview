@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <title>SVG Path Preview with Raphael</title>
+        <style type="text/css" media="screen">
+            h1 {
+                font-family: Georgia;
+                font-size: 1.5em;
+            }
+        
+            #path_spec {
+                width: 800px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            
+            #path_submit {
+                padding: 10px;
+                margin-top: 10px;
+                float: right;
+            }
+            
+            #wrapper {
+                width: 800px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>SVG Path Preview for Raphael</h1>
+            <div id="canvas"></div>
+            <textarea id="path_spec">M 50 50 L 50 100 L 60 100 L 60 70 L 70 100 L 80 100 L 80 50 L 70 50 L 70 80 L 60 50 L 50 50</textarea> <button id="path_submit">Update</button>
+        </div>
+        
+        <script type="text/javascript" charset="utf-8" src="jquery-1.4.4.js"></script>
+        <script type="text/javascript" charset="utf-8" src="raphael-min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="path_generator.js"></script>
+    </body>
+</html>
