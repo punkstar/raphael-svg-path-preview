@@ -1,4 +1,4 @@
-# Raphael SVN Path Debugging
+# Raphael SVG Path Debugging
 
 Author: Nick Jones ([http://www.nicksays.co.uk](http://www.nicksays.co.uk))
 
